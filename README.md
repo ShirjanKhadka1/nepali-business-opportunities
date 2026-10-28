@@ -46,13 +46,13 @@ See `sectors/` for one file per sector, each with: why Nepal, who pays,
 main barriers, what to verify first, and a blank scorecard.
 
 - **Agriculture & food processing** — value addition to what Nepal already grows
-- **Hydropower-linked services** — engineering, maintenance, local supply chains (not just generation)
-- **IT & digital services for export** — software, design, data, support, in English, from Nepal
-- **Tourism, done properly** — trekking, culture, wellness, and the services around them (not just hotels)
-- **Remittance-linked services** — savings, insurance, investment products for migrant families
-- **Local manufacturing & import substitution** — goods Nepal imports that it could make at competitive quality
 - **Education & skills** — vocational, English, and professional training with employer linkage
 - **Health & wellness services** — diagnostics, clinics, and care where access is the gap
+- **Hydropower-linked services** — engineering, maintenance, local supply chains (not just generation)
+- **IT & digital services for export** — software, design, data, support, in English, from Nepal
+- **Local manufacturing & import substitution** — goods Nepal imports that it could make at competitive quality
+- **Remittance-linked services** — savings, insurance, investment products for migrant families
+- **Tourism, done properly** — trekking, culture, wellness, and the services around them (not just hotels)
 
 ## How to find "the best one" — the honest procedure
 
@@ -73,6 +73,28 @@ main barriers, what to verify first, and a blank scorecard.
 - [ ] Power, logistics, and payment realities for that exact location
 - [ ] A competitor list with their prices — if you cannot name 3, you have
       not researched the market yet
+
+## Quick start
+
+1. Read the scoring framework in `README.md` above.
+2. Pick one sector file in `sectors/` and read its "what to verify first"
+   list before treating any part of it as evidence.
+3. Score it on `framework/scorecard.md`, citing evidence for every score.
+
+## Limitations
+
+- The 8 sectors are starting points in alphabetical order, NOT a ranking.
+  Ranking them without scored evidence would be exactly what this repo
+  refuses to do.
+- No sector has been fully analysed here, and no opportunity in this repo
+  is a verified business case: real customers, prices, costs, and licence
+  requirements must still be verified (see "What to verify" above).
+- Scores are only as good as the evidence cited for them.
+
+> Research only, not investment advice; never a buy/sell recommendation
+
+See `CONTRIBUTING.md` for how to contribute and `SECURITY.md` for how to
+report a security issue privately.
 
 ## License
 
