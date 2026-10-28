@@ -1,0 +1,80 @@
+# 🇳🇵 Nepali Business Opportunities — scored, not asserted
+
+**What this repo is, honestly:** a framework for finding the best business
+opportunities *inside Nepal*, by scoring sectors on the same criteria,
+with evidence gaps labelled — not a list that pretends "everything inside
+Nepal" has already been analysed. No one has analysed everything. A repo
+that claims it has is lying to you, and this repo will not do that.
+
+**What it gives you instead:** a repeatable method, a sector shortlist
+built from Nepal's known structural strengths, and a scoring worksheet
+you (or anyone) can re-run with better data — so the "best" answer improves
+as the evidence improves, instead of freezing on a guess.
+
+> Research only, not investment advice. Starting a business or investing
+> in one needs legal, tax, market, and financing advice specific to that
+> venture. This repo does not replace any of that.
+
+## The scoring framework (use it on every sector, every time)
+
+Score each opportunity 1–5 on each criterion, with evidence cited for
+every score. An opportunity with any criterion scored 1 on "evidence"
+is not rankable yet — it is a research task, not a candidate.
+
+| # | Criterion | What to evidence |
+|---|---|---|
+| 1 | Real demand, in Nepal | Who pays, how often, in NPR, from what source (not "huge market") |
+| 2 | Nepal advantage | What does Nepal do better/cheaper/closer than the alternative? (labour, location, resource, language, diaspora, regulation) |
+| 3 | Unit economics | Price, cost, margin, working capital — even rough, with sources |
+| 4 | Barriers & moat | What stops the next entrant copying it in 6 months? |
+| 5 | Capital & payback | Start-up capital, time to first revenue, time to payback |
+| 6 | Regulation & risk | Licences, policy change risk, FX, power, logistics, political risk |
+| 7 | Jobs & spillover | Does it build skills / suppliers / exports, or just extract? |
+| 8 | Evidence quality | Primary data / filings / official stats = 5; news anecdote = 2; guess = 1 |
+
+**Total out of 40. Rank only opportunities with evidence quality ≥ 3.**
+Anything below that goes to the "research first" list, not the ranking.
+
+## Sector shortlist — starting points, NOT a ranking
+
+These sectors appear because Nepal has a structural reason to look at
+them — a resource, a diaspora, a cost base, or an unmet local need.
+Their order below is alphabetical, not ranked. Ranking them without
+scored evidence would be exactly the dishonesty this repo refuses.
+
+See `sectors/` for one file per sector, each with: why Nepal, who pays,
+main barriers, what to verify first, and a blank scorecard.
+
+- **Agriculture & food processing** — value addition to what Nepal already grows
+- **Hydropower-linked services** — engineering, maintenance, local supply chains (not just generation)
+- **IT & digital services for export** — software, design, data, support, in English, from Nepal
+- **Tourism, done properly** — trekking, culture, wellness, and the services around them (not just hotels)
+- **Remittance-linked services** — savings, insurance, investment products for migrant families
+- **Local manufacturing & import substitution** — goods Nepal imports that it could make at competitive quality
+- **Education & skills** — vocational, English, and professional training with employer linkage
+- **Health & wellness services** — diagnostics, clinics, and care where access is the gap
+
+## How to find "the best one" — the honest procedure
+
+1. Score all 8 sectors with the framework above, citing evidence per score.
+2. Take the top 2 by total (evidence ≥ 3 only).
+3. For each top sector, list 3 specific business models inside it (not
+   "tourism" — "X service for Y customer at Z price").
+4. Score those 6 models again, with unit economics this time.
+5. The highest-scoring model, with its evidence attached, is your current
+   best candidate — until better evidence changes the ranking. Say so, in
+   those words, when you share it.
+
+## What to verify before acting on any candidate
+
+- [ ] Real customers interviewed (not just "people would buy this")
+- [ ] Real prices and costs from suppliers, not from articles
+- [ ] Licence / registration requirements, in writing, from the regulator
+- [ ] Power, logistics, and payment realities for that exact location
+- [ ] A competitor list with their prices — if you cannot name 3, you have
+      not researched the market yet
+
+## License
+
+MIT. If you re-run the scoring with better data, contribute your scorecard
+back — that is how this repo gets more accurate over time.
