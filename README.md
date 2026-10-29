@@ -54,6 +54,26 @@ main barriers, what to verify first, and a blank scorecard.
 - **Remittance-linked services** — savings, insurance, investment products for migrant families
 - **Tourism, done properly** — trekking, culture, wellness, and the services around them (not just hotels)
 
+## Evidence dossiers — 2026-10-29
+
+Three sectors now have dated evidence dossiers in `evidence/`, each citing
+only public sources actually opened and read on 2026-10-29, with gaps labelled
+UNKNOWN. Their scores are sector-level indicative scores only: per
+`framework/scorecard-use-note.md`, only a specific opportunity ("X service
+for Y customer at Z price") can be ranked, so these totals must NOT be used
+to reorder the alphabetical shortlist above, and no sector is described here
+as "leading" or "top".
+
+- **Hydropower-linked services** — dossier `evidence/2026-10-29-hydropower-linked-services.md` — scored 24/40, evidence quality 3 (Economic Survey 2082/83 figures and NEA export data via secondary reporting; no primary filing directly read).
+- **Remittance-linked services** — dossier `evidence/2026-10-29-remittance-linked-services.md` — scored 25/40, evidence quality 3 (NRB statistics via Radio Nepal and a World Bank remittance series; no NRB primary PDF directly read). Note: the Fiscal Nepal page used for the licensed-company count headlines monetary totals 10x the NRB billion figures for the same period — this repo uses the NRB billion figures and does not quote those headlines.
+- **Tourism, done properly** — dossier `evidence/2026-10-29-tourism-done-properly.md` — scored 24/40, evidence quality 3 (NTB 2024 arrival statistics and a World Bank feature; the World Bank jobs/GDP/spend figures are a dated 2019 baseline, not current figures).
+
+No dossier yet for the other five shortlisted sectors — Agriculture & food
+processing, Education & skills, Health & wellness services, IT & digital
+services for export, and Local manufacturing & import substitution. They
+remain unscored and unranked, not "researched and found wanting": their
+evidence simply has not been compiled in this repo yet.
+
 ## How to find "the best one" — the honest procedure
 
 1. Score all 8 sectors with the framework above, citing evidence per score.
