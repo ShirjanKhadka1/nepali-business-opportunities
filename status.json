@@ -1,0 +1,12 @@
+{
+  "repo": "nepali-business-opportunities",
+  "sectors": 8,
+  "criteria": 8,
+  "score_total": 40,
+  "tests_passed": null,
+  "tests_total": null,
+  "tests_note": "No code tests (Markdown/framework repo)",
+  "generated_by": "scripts/generate_status.py (Round 3: file counts from disk)",
+  "generated_at": "2026-10-29",
+  "method": "sectors/*.md counted from disk; criterion rows counted from framework/scorecard.md; score total = criteria x 5"
+}
