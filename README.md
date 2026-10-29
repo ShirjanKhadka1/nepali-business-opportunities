@@ -104,6 +104,7 @@ evidence simply has not been compiled in this repo yet.
 ## Limitations
 
 - The 8 sectors are starting points in alphabetical order, NOT a ranking.
+  Generated counts: see `status.json` (produced by `scripts/generate_status.py`, checked by `scripts/check_numbers.py`).
   Ranking them without scored evidence would be exactly what this repo
   refuses to do.
 - No sector has been fully analysed here, and no opportunity in this repo
