@@ -112,6 +112,20 @@ evidence simply has not been compiled in this repo yet.
   requirements must still be verified (see "What to verify" above).
 - Scores are only as good as the evidence cited for them.
 
+### Quality gates (Phase 4)
+
+```bash
+python scripts/qa.py                  # every gate in order; stops at the first failure
+```
+
+`scripts/qa.py` runs the counts check (`scripts/generate_status.py` +
+`scripts/check_numbers.py`), the licence check, the secret scan (tree +
+git history), and the link check (internal links must resolve; external
+links best-effort). Stdlib only — this repo has no dev dependencies.
+The same gates run in CI via `.github/workflows/qa.yml`; the Phase 4
+workflow is staged for deployment via the browser route and is not
+live until its first run is observed.
+
 > Research only, not investment advice; never a buy/sell recommendation
 
 See `CONTRIBUTING.md` for how to contribute and `SECURITY.md` for how to
