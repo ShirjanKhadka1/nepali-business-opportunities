@@ -7,6 +7,6 @@
   "tests_total": null,
   "tests_note": "No code tests (Markdown/framework repo)",
   "generated_by": "scripts/generate_status.py (Round 3: file counts from disk)",
-  "generated_at": "2026-10-29",
+  "generated_at": "2026-11-07",
   "method": "sectors/*.md counted from disk; criterion rows counted from framework/scorecard.md; score total = criteria x 5"
 }
