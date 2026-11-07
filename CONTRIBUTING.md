@@ -4,9 +4,16 @@ Thank you for contributing. Keep changes small, sourced, and checkable.
 
 ## Tests
 
-This repo has no automated test suite: it is Markdown, templates, and
-research notes. Before submitting, re-read the changed file end to end
-and check every number, link, and cross-reference in it.
+This repo has no pytest suite: it is Markdown, templates, and research
+notes. It does have Phase 4 quality gates — before submitting, run:
+
+```bash
+python scripts/qa.py                  # counts, licence, secrets, links
+```
+
+`scripts/qa.py` stops at the first failing gate. A change that fails
+`qa.py` is not ready. For Markdown-only changes, still run it — the
+counts and link gates catch drift that re-reading misses.
 
 ## Proposing a Markdown change
 
