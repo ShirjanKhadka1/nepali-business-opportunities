@@ -1,0 +1,36 @@
+# =====================================================================
+# NOT DEPLOYED — STAGED FILE ONLY (Phase 4, 7 Nov 2026).
+# This workflow is NOT live on GitHub. It was prepared locally and has
+# NOT been pushed via the API: the token behind the API helper lacks
+# workflow scope, so an API push of a .github/workflows/ file would
+# fail with 403. The parent deploys it via the GitHub web UI (browser
+# route) and then confirms the file exists on main and the first run
+# is observed green (or red, triaged honestly).
+# Do NOT describe this workflow as deployed, running, or green until
+# the parent confirms that deployment and a run.
+#
+# TARGET:
+#   Repo:   ShirjanKhadka1/nepali-business-opportunities
+#   Branch: main
+#   Path:   .github/workflows/qa.yml   (NEW — this repo has only
+#           check-numbers.yml today)
+#
+# Single job on ubuntu: runs the Phase 4 entry point
+# `python scripts/qa.py` (counts, licence, secret scan, link check).
+# Stdlib only — no pip install step: this repo has no dev
+# dependencies. fetch-depth: 0 is deliberate: the secret gate scans
+# `git log -p`, and the default shallow checkout would make it vacuous.
+# =====================================================================
+name: QA
+on: [push, pull_request]
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/qa.py
